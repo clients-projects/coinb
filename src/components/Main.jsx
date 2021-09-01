@@ -17,9 +17,7 @@ const Main = () => {
                 </div>
             </div>
 
-            <div className='w-full relative my-20 sm:my-10 lg:my-0 grid justify-center phoneGlow'>
-
-            </div>
+      
         </div>
     )
 }
