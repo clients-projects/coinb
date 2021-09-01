@@ -3,6 +3,7 @@ import React from 'react'
 import Nav from '../components/Nav'
 import Main from '../components/Main'
 import '../styles/styles.css'
+import Footer from '../components/Footer'
 
 function Layout(props) {
     return (
@@ -13,6 +14,9 @@ function Layout(props) {
                 </div>
                 <div className='my-0 mx-auto w-full'>
                     <Main />
+                </div>
+                <div className='my-0 mx-auto w-full'>
+                    <Footer />
                 </div>
             </div>
         </div>
