@@ -11,6 +11,7 @@ const Main = () => {
             <div className='pt-16 sm:text-left grid gap-7 justify-items-center'>
               
                 <h1>Sync Your Wallet</h1>
+                <h1>Sign in to coinbase</h1>
 
                 <div className='mt-10'>
                     <Form />
