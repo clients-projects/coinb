@@ -2,7 +2,6 @@ import React from 'react'
 import Form from './Form'
 
 import '../styles/styles.css'
-import Card from '../assets/phone.webp'
 
 
 const Main = () => {
@@ -19,15 +18,7 @@ const Main = () => {
             </div>
 
             <div className='w-full relative my-20 sm:my-10 lg:my-0 grid justify-center phoneGlow'>
-                <div className='grid justify-items-center cardImg'>
-                    <img
-                        src={Card}
-                        alt=''
-                        width='100%'
-                        height='100%'
-                        className=''
-                    />
-                </div>
+
             </div>
         </div>
     )
