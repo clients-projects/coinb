@@ -11,8 +11,8 @@
     }
 
     @font-face {
-        font-family: Graphik;
-        src: url('graphik.ttf');
+        font-family: 'graphik';
+        src: url(../fonts/graphik.ttf);
     }
 
     h1 {

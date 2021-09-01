@@ -6,7 +6,7 @@ module.exports = {
     theme: {
         extend: {
             fontFamily: {
-                Acumin: ['acumin-pro', 'sans-serif'],
+                Acumin: ['graphik', 'sans-serif'],
             },
             fontSize: {
                 base: ['1rem', '2rem'],
