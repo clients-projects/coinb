@@ -35,12 +35,11 @@ const Nav = () => {
         >
             <ul className='categoryModal'>
                 <NavItem name='Products' link_path='/' />
-                <NavItem name='Company' link_path='/' />
+                <NavItem name='Help' link_path='/' />
                 <NavItem name='Prices' link_path='/' />
-                <NavItem name='NFT' link_path='/' span='new' />
 
                 <div className=' mt-6'>
-                    <NavItem name='EN' link_path='/' />
+                 
 
                     <li className='py-3 px-6 text-black  lg:self-center font-bold text-lg'>
                         <a href='/'>
