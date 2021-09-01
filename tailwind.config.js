@@ -13,7 +13,7 @@ module.exports = {
                 Graphik: ['graphik', 'sans-serif'],
             },
             fontSize: {
-                base: ['1rem', '2rem'],
+                base: ['13px', '2rem'],
                 '3xl': ['2.89rem', '3.2rem'],
                 '7xl': ['4.163rem', '4.5rem'],
             },
