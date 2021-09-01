@@ -12,8 +12,8 @@ const Nav = () => {
         width: isOn ? '100%' : '0',
         visibility: isOn ? 'visible' : 'hidden',
         transform: isOn
-            ? 'translateX(0%) translateZ(0px)'
-            : 'translateX(600px)',
+            ? 'translateY(0%) translateZ(0px)'
+            : 'translateY(600px)',
         transition: 'all .1s',
     }
 
@@ -29,7 +29,7 @@ const Nav = () => {
 
     const categoryModal = (
         <div
-            className='fixed top-0 left-0 w-full h-full text-black z-20 pt-28'
+            className='fixed top-0 left-0 w-full h-full z-20 pt-28'
             style={categoryModalStyle}
         >
             <ul className='categoryModal'>
