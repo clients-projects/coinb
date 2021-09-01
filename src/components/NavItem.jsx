@@ -11,7 +11,7 @@ const NavItem = ({ name, link_path, span }) => {
             </a>
             {name === 'Products' ? (
 
-                    <AiFillCaretDown className='self-center bg-black' style={{marginLeft: '.2rem'}} />
+                    <AiFillCaretDown className='self-center text-black' style={{marginLeft: '.2rem'}} />
             ) : ''}
         </li>
     )
