@@ -4,7 +4,7 @@ import {BiChevronDown} from 'react-icons/bi'
 const NavItem = ({ name, link_path, span }) => {   
 
     return (
-        <li className='py-3 px-6 lg:px-4  lg:self-center font-medium text-lg flex justify-between '>
+        <li className='py-3 px-6 lg:px-4  lg:self-center font-medium text-sm flex justify-between '>
             <a href={link_path}>
                 {name}{' '}
                 {span ? (
