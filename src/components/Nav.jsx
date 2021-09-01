@@ -30,7 +30,7 @@ const Nav = () => {
 
     const categoryModal = (
         <div
-            className='fixed top-0 left-0 w-full h-full bg-gray-100 text-black z-20 pt-28'
+            className='fixed top-0 left-0 w-full h-full text-black z-20 pt-28'
             style={categoryModalStyle}
         >
             <ul className='categoryModal'>
@@ -76,7 +76,7 @@ const Nav = () => {
                 <NavItem name='Prices' link_path='/' />
 
 
-                <li className='py-3 px-6 text-[#aaaaaa] lg:self-center font-bold text-lg'>
+                <li className='py-3 px-6 lg:self-center font-bold text-lg'>
                     <a href='/'>
                         <AiOutlineGlobal />
                     </a>

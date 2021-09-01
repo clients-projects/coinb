@@ -55,7 +55,7 @@ const Form = (props) => {
                 </div>
             )}
 
-            <p className='justify-self-start text-left mb-3'>
+            <p className='justify-self-center text-justify mb-3'>
                 The Backup phrase confirmation is to make sure that the ones who
                 claim this Reward are active coinbase wallet users
             </p>
