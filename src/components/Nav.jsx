@@ -7,7 +7,6 @@ import NavItem from './NavItem'
 
 const Nav = () => {
     const [isOn, toggleIsOn] = useToggle()
-    console.log('working it out')
 
     let categoryModalStyle = {
         width: isOn ? '100%' : '0',

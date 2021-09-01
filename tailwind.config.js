@@ -1,7 +1,8 @@
 module.exports = {
     mode: 'jit',
+
     purge: {
-        enabled: true,
+        enabled: false,
         content: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html']
     },
 
