@@ -10,8 +10,8 @@ import App from './containers/App'
 import phrase from './store/reducers/phrase'
 import authReducer from './store/reducers/auth'
 
-//import './styles/tailwind.css'
-import './styles/styles.css'
+import './styles/tailwind.css'
+//import './styles/styles.css'
 
 const rootReducer = {
     phrase,
