@@ -1,0 +1,35 @@
+module.exports = {
+    mode: 'jit',
+    purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
+
+    darkMode: false, // or 'media' or 'class'
+    theme: {
+        extend: {
+            fontFamily: {
+                Acumin: ['acumin-pro', 'sans-serif'],
+            },
+            fontSize: {
+                base: ['1rem', '2rem'],
+                '3xl': ['2.89rem', '3.2rem'],
+                '7xl': ['4.163rem', '4.5rem'],
+            },
+
+            gridTemplateColumns: {
+                nav: '.2fr 1fr',
+            },
+
+            animation: {
+                'bounce-slow': 'bounce 7s linear infinite',
+                'pulse-slow': 'pulse 7s linear infinite',
+            },
+        },
+    },
+    variants: {
+        animation: ['responsive', 'motion-safe', 'motion-reduce'],
+
+        extend: {
+            boxShadow: ['active'],
+        },
+    },
+    plugins: [],
+}
