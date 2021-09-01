@@ -1,17 +1,11 @@
 import React from 'react'
-import { BiCheck } from 'react-icons/bi'
-import { motion, useViewportScroll, useTransform } from 'framer-motion'
-//import 'animate.css/animate.min.css'
 import Form from './Form'
 
 import '../styles/styles.css'
 import Card from '../assets/phone.webp'
-import DownloadPlayStore from '../assets/downloadPlayStore.png'
-import DownloadAppStore from '../assets/downloadAppStore.png'
+
 
 const Main = () => {
-    const { scrollYProgress } = useViewportScroll()
-    const scale = useTransform(scrollYProgress, [0, 1], [0.2, 2])
 
     return (
         <div className='grid justify-items-center '>
