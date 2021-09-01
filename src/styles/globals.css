@@ -7,7 +7,12 @@
 @layer base {
     body {
         @apply bg-[#1652f0] text-white;
-        @apply font-Acumin;
+
+    }
+
+    @font-face {
+        font-family: Graphik;
+        src: url(graphik.ttf);
     }
 
     h1 {
