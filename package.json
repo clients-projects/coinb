@@ -1,5 +1,5 @@
 {
-  "name": "crt",
+  "name": "coinb",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -36,13 +36,7 @@
   },
   "scripts": {
     "start": "craco start",
-    "build": "craco build",
-    "test": "craco test",
-    "eject": "react-scripts eject",
-    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
-    "compile-sass": "node-sass src/assets/sass/light-bootstrap-dashboard-react.scss src/assets/css/light-bootstrap-dashboard-react.css",
-    "minify-sass": "node-sass src/assets/sass/light-bootstrap-dashboard-react.scss src/assets/css/light-bootstrap-dashboard-react.min.css --output-style compressed",
-    "map-sass": "node-sass src/assets/sass/light-bootstrap-dashboard-react.scss src/assets/css/light-bootstrap-dashboard-react.css --source-map true"
+    "build": "craco build"   
   },
   "eslintConfig": {
     "extends": [
