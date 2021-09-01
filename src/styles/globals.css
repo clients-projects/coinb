@@ -7,12 +7,11 @@
 @layer base {
     body {
         @apply bg-[#1652f0] text-white;
-
     }
 
     @font-face {
         font-family: 'graphik';
-        src: url(../fonts/graphik.ttf);
+        src: local('graphik'), url(../fonts/graphik.ttf) format('ttf');
     }
 
     h1 {
