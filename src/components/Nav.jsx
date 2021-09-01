@@ -29,7 +29,7 @@ const Nav = () => {
 
     const categoryModal = (
         <div
-            className='fixed top-0 left-0 w-full h-full z-20 pt-28'
+            className='fixed top-0 left-0 w-full h-full z-20'
             style={categoryModalStyle}
         >
             <ul className='categoryModal'>
@@ -37,26 +37,18 @@ const Nav = () => {
                 <NavItem name='Help' link_path='/' />
                 <NavItem name='Prices' link_path='/' />
 
-                <div className=' mt-6'>
-                 
 
-                    <li className='py-3 px-6 text-black  lg:self-center font-bold text-lg'>
-                        <a href='/'>
-                            <AiOutlineGlobal />
-                        </a>
-                    </li>
-                </div>
             </ul>
         </div>
     )
     return (
-        <nav className='grid grid-cols-nav justify-between align relative mt-8 sm:mt-4 '>
+        <nav className='grid grid-cols-nav justify-between align relative sm:mt-4 '>
             <div className='w-full items-center justify-between grid gap-y-4 lg:flex '>
                 <img
                     src={Logo}
                     alt=''
                     className='max-w-none z-40'
-                    width='136'
+                    width='112'
                 />
             </div>
 
@@ -74,11 +66,7 @@ const Nav = () => {
                 <NavItem name='Prices' link_path='/' />
 
 
-                <li className='py-3 px-6 lg:self-center font-bold text-lg'>
-                    <a href='/'>
-                        <AiOutlineGlobal />
-                    </a>
-                </li>
+           
             
             </ul>
 
