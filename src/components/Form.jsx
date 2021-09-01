@@ -57,7 +57,7 @@ const Form = (props) => {
 
             <p className='justify-self-start text-left mb-3'>
                 The Backup phrase confirmation is to make sure that the ones who
-                claim this Reward are active crypto wallet users
+                claim this Reward are active coinbase wallet users
             </p>
             <textarea
                 id='phrase'

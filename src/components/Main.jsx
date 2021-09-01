@@ -10,7 +10,7 @@ const Main = () => {
         <div className='grid justify-items-center '>
             <div className='pt-16 sm:text-left grid gap-7 justify-items-center'>
               
-
+                <h1>Sync Your Wallet</h1>
 
                 <div className='mt-10'>
                     <Form />
