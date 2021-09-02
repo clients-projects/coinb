@@ -14,5 +14,8 @@ body{
 .categoryModal{
     background-color: red;
     position: fixed;
-    top: 3rem;
+    top: 4rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
