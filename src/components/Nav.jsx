@@ -62,7 +62,7 @@ const Nav = () => {
                     <NavItem name='Help' link_path='/' />
                 </ul>
 
-                <hr className='mt-3 border-t border-[#ffffff26] pt-6 pb-3' />
+                <hr className='mt-3 border-t border-[#ffffff26] pt-10' />
 
                 <div className='ml-4'>
             <NavItem name='Prices' link_path='/' />
