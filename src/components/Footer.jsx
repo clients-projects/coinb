@@ -8,10 +8,15 @@ export default function Footer() {
         //     <li>Privacy Policy</li>
         //     <li>Have an issue with 2-factor authentication?</li>
         // </ul>
+        <>
         <p className='font-Helvetica text-base'>
       <a href="#blank">Forgot password?</a>
       · <a href="#blank">Don't have an account?</a>
       · <a href="#blank">Privacy Policy</a><br/>
-    </p>
+        </p>
+        <p>
+        <a href="#blank">Have an issue with 2-factor authentication?</a>
+      </p>
+      </>
     )
 }
