@@ -64,7 +64,7 @@ const Nav = () => {
                             </li>
                             <li>
                                 <a
-                                    href='https://pro.coinbase.com'
+                                    href='#blank'
                                     className='external-link'
                                 >
                                     Coinbase Pro
@@ -72,7 +72,7 @@ const Nav = () => {
                             </li>
                             <li>
                                 <a
-                                    href='https://prime.coinbase.com'
+                                    href='#blank'
                                     className='external-link'
                                 >
                                     Coinbase Prime
@@ -80,7 +80,7 @@ const Nav = () => {
                             </li>
                             <li>
                                 <a
-                                    href='https://developers.coinbase.com'
+                                    href='#blank'
                                     className='external-link'
                                 >
                                     Developer Platform
@@ -88,7 +88,7 @@ const Nav = () => {
                             </li>
                             <li>
                                 <a
-                                    href='https://commerce.coinbase.com'
+                                    href='#blank'
                                     className='external-link'
                                 >
                                     Coinbase Commerce
