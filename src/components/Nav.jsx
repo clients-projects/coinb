@@ -60,12 +60,12 @@ const Nav = () => {
                         />
                     </ul>
                     <NavItem name='Help' link_path='/' />
-                    <NavItem name='Prices' link_path='/' />
                 </ul>
             </div>
 
             <hr className='mt-3 border-t border-[#ffffff26]' />
 
+            <NavItem name='Prices' link_path='/' />
         </div>
     )
     return (
