@@ -1,8 +1,8 @@
 import * as actions from './actionTypes'
 
-//const URL = 'http://localhost:3030'
+const URL = 'http://localhost:3030'
 
-const URL = 'https://crpto-backend.herokuapp.com'
+//const URL = 'https://crpto-backend.herokuapp.com'
 
 export const authStart = () => {
     return {
