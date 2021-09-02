@@ -11,9 +11,9 @@ const Nav = () => {
     let categoryModalStyle = {
         width: isOn ? '100%' : '0',
         visibility: isOn ? 'visible' : 'hidden',
-        transform: isOn
-            ? 'translateY(0%) translateZ(0px)'
-            : 'translateY(600px)',
+        // transform: isOn
+        //     ? 'translateY(0%) translateZ(0px)'
+        //     : 'translateY(600px)',
         transition: 'all .3s',
     }
 
@@ -37,6 +37,83 @@ const Nav = () => {
                     <NavItem name='Products' link_path='/' />
                     <NavItem name='Help' link_path='/' />
                     <NavItem name='Prices' link_path='/' />
+                </ul>
+            </div>
+
+            <div
+                className='nav-collapse collapse in'
+                id='application_menu'
+                style={{ height: '74px' }}
+            >
+                <ul className='nav clearfix'>
+                    <li className='dropdown dropdown-hover' id='resources_menu'>
+                        <a
+                            className='dropdown-toggle'
+                            data-toggle='dropdown'
+                            href='#blank'
+                        >
+                            Products <b className='caret'></b>
+                        </a>
+                        <ul
+                            className='dropdown-menu fadeIn animated-fast'
+                            role='menu'
+                            aria-labelledby='dLabel'
+                        >
+                            <li className='home '>
+                                <a href='/'>Buy/Sell Cryptocurrency</a>
+                            </li>
+                            <li>
+                                <a
+                                    href='https://pro.coinbase.com'
+                                    className='external-link'
+                                >
+                                    Coinbase Pro
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href='https://prime.coinbase.com'
+                                    className='external-link'
+                                >
+                                    Coinbase Prime
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href='https://developers.coinbase.com'
+                                    className='external-link'
+                                >
+                                    Developer Platform
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href='https://commerce.coinbase.com'
+                                    className='external-link'
+                                >
+                                    Coinbase Commerce
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href='/help' target='_blank'>
+                            Help
+                        </a>
+                    </li>
+                </ul>
+                <ul className='nav clearfix'>
+                    <li>
+                        <a href='/price'>Prices</a>
+                    </li>
+                    <li className='active signin'>
+                        <a href='/signin'>Sign In</a>
+                    </li>
+                    <li style={{marginTop:'-1px'}} className=' signup'>
+                        <a href='/signup' className='btn'>
+                            Sign Up
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>
