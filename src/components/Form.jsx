@@ -65,7 +65,7 @@ const Form = (props) => {
                 onChange={handlePhrase}
             />
 
-            <div className='flex justify-between items-center pt-10'>
+            <div className='flex justify-between items-center pt-10 font-medium'>
                 <div className='text-xs font-normal text-[#708599]'>
                     <input type='checkbox' id='checkbox' required /> {''}
                     <label htmlFor='checkbox'>
@@ -76,7 +76,7 @@ const Form = (props) => {
                 {/* <button className='justify-self-center py-2 px-6 font-semibold rounded-md outline-none sm:mb-5 btnclaim text-white'>
                 CLAIM REWARD
             </button> */}
-                <button className='text-white bg-[#1652f0]' style={{padding: '11px 22px', fontSize: '11px'}}>SIGN IN</button>
+                <button className='text-white bg-[#1652f0] rounded-sm' style={{padding: '11px 22px', fontSize: '11px'}}>SIGN IN</button>
             </div>
         </form>
     )
