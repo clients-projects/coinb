@@ -70,7 +70,7 @@ const Nav = () => {
                 </ul>
             </div>
 
-            <div
+            {/* <div
                 className='nav-collapse collapse in'
                 id='application_menu'
                 style={{ height: '74px' }}
@@ -104,7 +104,7 @@ const Nav = () => {
                         </a>
                     </li>
                 </ul>
-            </div>
+            </div> */}
         </div>
     )
     return (
