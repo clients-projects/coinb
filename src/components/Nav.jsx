@@ -14,7 +14,7 @@ const Nav = () => {
         // transform: isOn
         //     ? 'translateY(0%) translateZ(0px)'
         //     : 'translateY(600px)',
-        transition: 'all .3s',
+        // transition: 'all .3s',
     }
 
     let hamburgerStyle = (
