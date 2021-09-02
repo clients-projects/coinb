@@ -11,10 +11,10 @@ const Nav = () => {
     let categoryModalStyle = {
         width: isOn ? '100%' : '0',
         visibility: isOn ? 'visible' : 'hidden',
-        transform: isOn
-            ? 'translateY(0%) translateZ(0px)'
-            : 'translateY(600px)',
-        transition: 'all .1s',
+        // transform: isOn
+        //     ? 'translateY(0%) translateZ(0px)'
+        //     : 'translateY(600px)',
+        transition: 'all .3s',
     }
 
     let hamburgerStyle = (
@@ -28,7 +28,8 @@ const Nav = () => {
 
     const categoryModal = (
         <div
-            className='fixed top-0 left-0 w-full h-full z-20 bg-red-500'
+            className='fixed top-0 left-0 w-full h-full z-20 bg-[#3882cde6]'
+            style={categoryModalStyle}
         >
             <ul className='categoryModal'>
                 <NavItem name='Products' link_path='/' />
