@@ -11,7 +11,7 @@ body{
     background-color: #3882cde6;
 } */
 
-.categoryModal{
+.categoryModal {
     z-index: 30;
     position: fixed;
     top: 4rem;
@@ -22,12 +22,8 @@ body{
     /* background-color: #ffffff26; */
 }
 
-.btnclaim{
-
-    
+.btnclaim {
     border-radius: 52px;
-background: #1652f0;
-box-shadow:  16px 16px 32px #3882cde6,
-             -16px -16px 32px #1652f0;
+    background: #1652f0;
+    box-shadow: 1px 2px 9px 8px #3882cde6, -16px -16px 32px #1652f0;
 }
- 
