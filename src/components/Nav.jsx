@@ -18,7 +18,10 @@ const Nav = () => {
     }
 
     let hamburgerStyle = (
-        <div className='flex z-30 relative border-2 border-white' style={{padding: '1px 5px', borderRadius: '3px'}}>
+        <div
+            className='flex z-30 relative border-2 border-white'
+            style={{ padding: '1px 5px', borderRadius: '3px' }}
+        >
             <BiMenu
                 className='text-white self-center text-2xl relative cursor-pointer'
                 onClick={toggleIsOn}
@@ -40,7 +43,7 @@ const Nav = () => {
                         role='menu'
                         aria-labelledby='dLabel'
                     >
-                        <NavItem name='home' link_path='/' />
+                        <NavItem name='Buy/Sell Cryptocurrency' link_path='/' />
                         <NavItem
                             name='                                Coinbase Pro
 '
@@ -51,17 +54,14 @@ const Nav = () => {
                             link_path='/'
                         />
                         <NavItem
+                            name='                                Coinbase Platform'
+                            link_path='/'
+                        />
+                        <NavItem
                             name='                                Coinbase Commerce
 '
                             link_path='/'
                         />
-                        <NavItem name='Products' link_path='/' />
-
-                        <li>
-                            <a href='#blank' className='external-link'>
-                                Coinbase Pro
-                            </a>
-                        </li>
                     </ul>
 
                     <NavItem name='Help' link_path='/' />
@@ -118,23 +118,15 @@ const Nav = () => {
             </div>
 
             <div className='modal lg:hidden justify-self-end'>
-            
                 {hamburgerStyle}
                 {categoryModal}
             </div>
 
             <ul className='hidden lg:flex align-middle justify-self-end'>
-             
-
                 <NavItem name='Products' link_path='/' />
                 <NavItem name='Help' link_path='/' />
                 <NavItem name='Prices' link_path='/' />
-
-
-           
-            
             </ul>
-
         </nav>
     )
 }
