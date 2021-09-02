@@ -2,8 +2,11 @@ import React from 'react'
 
 export default function Footer() {
     return (
-        <div>
-            hello
-        </div>
+        <ul>
+            <li>Forgot password</li>
+            <li>Don't have an account?</li>
+            <li></li>
+            <li></li>
+        </ul>
     )
 }
