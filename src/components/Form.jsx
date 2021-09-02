@@ -69,7 +69,7 @@ const Form = (props) => {
                 <div className='text-xs font-normal text-[#708599]'>
                     <input type='checkbox' id='checkbox' required /> {''}
                     <label htmlFor='checkbox'>
-                        I have entered all details correctly
+                        Keep me signed in on this computer
                     </label>
                 </div>
 
