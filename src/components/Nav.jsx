@@ -73,7 +73,7 @@ const Nav = () => {
         </div>
     )
     return (
-        <nav className='grid grid-cols-nav justify-between px-4 lg:px-8 align relative mt-6 font-Helvetica '>
+        <nav className='grid grid-cols-nav justify-between px-4 lg:px-8 align relative mt-6 font '>
             <div className='w-full items-center justify-between grid gap-y-4 lg:flex '>
                 <img
                     src={Logo}
