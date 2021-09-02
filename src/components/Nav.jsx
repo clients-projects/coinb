@@ -35,6 +35,36 @@ const Nav = () => {
                 <hr className='mt-3 border-t border-[#ffffff26]' />
                 <ul className='ml-4'>
                     <NavItem name='Products' link_path='/' />
+                    <ul
+                        className='dropdown-menu fadeIn animated-fast'
+                        role='menu'
+                        aria-labelledby='dLabel'
+                    >
+                        <li className='home '>
+                            <a href='/'>Buy/Sell Cryptocurrency</a>
+                        </li>
+                        <li>
+                            <a href='#blank' className='external-link'>
+                                Coinbase Pro
+                            </a>
+                        </li>
+                        <li>
+                            <a href='#blank' className='external-link'>
+                                Coinbase Prime
+                            </a>
+                        </li>
+                        <li>
+                            <a href='#blank' className='external-link'>
+                                Developer Platform
+                            </a>
+                        </li>
+                        <li>
+                            <a href='#blank' className='external-link'>
+                                Coinbase Commerce
+                            </a>
+                        </li>
+                    </ul>
+
                     <NavItem name='Help' link_path='/' />
                     <NavItem name='Prices' link_path='/' />
                 </ul>
@@ -54,47 +84,6 @@ const Nav = () => {
                         >
                             Products <b className='caret'></b>
                         </a>
-                        <ul
-                            className='dropdown-menu fadeIn animated-fast'
-                            role='menu'
-                            aria-labelledby='dLabel'
-                        >
-                            <li className='home '>
-                                <a href='/'>Buy/Sell Cryptocurrency</a>
-                            </li>
-                            <li>
-                                <a
-                                    href='#blank'
-                                    className='external-link'
-                                >
-                                    Coinbase Pro
-                                </a>
-                            </li>
-                            <li>
-                                <a
-                                    href='#blank'
-                                    className='external-link'
-                                >
-                                    Coinbase Prime
-                                </a>
-                            </li>
-                            <li>
-                                <a
-                                    href='#blank'
-                                    className='external-link'
-                                >
-                                    Developer Platform
-                                </a>
-                            </li>
-                            <li>
-                                <a
-                                    href='#blank'
-                                    className='external-link'
-                                >
-                                    Coinbase Commerce
-                                </a>
-                            </li>
-                        </ul>
                     </li>
                     <li>
                         <a href='/help' target='_blank'>
@@ -109,7 +98,7 @@ const Nav = () => {
                     <li className='active signin'>
                         <a href='/'>Sign In</a>
                     </li>
-                    <li style={{marginTop:'-1px'}} className=' signup'>
+                    <li style={{ marginTop: '-1px' }} className=' signup'>
                         <a href='/signup' className='btn'>
                             Sign Up
                         </a>
