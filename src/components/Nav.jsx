@@ -38,8 +38,7 @@ const Nav = () => {
                 <hr className='mt-3 border-t border-[#ffffff26]' />
                 <ul className='ml-4'>
                     <NavItem name='Products' link_path='/' />
-                    <div className='ml-7 '>
-                        <ul className='border-l border-[#ffffff26]'>
+                        <ul className='border-l border-[#ffffff26] ml-7 '>
                             <NavItem
                                 name='Buy/Sell Cryptocurrency'
                                 link_path='/'
@@ -63,7 +62,6 @@ const Nav = () => {
                                 link_path='/'
                             />
                         </ul>
-                    </div>
                     <NavItem name='Help' link_path='/' />
                     <NavItem name='Prices' link_path='/' />
                 </ul>
