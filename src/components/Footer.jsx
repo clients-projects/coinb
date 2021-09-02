@@ -6,7 +6,7 @@ export default function Footer() {
             <li>Forgot password?</li>
             <li>Don't have an account?</li>
             <li>Privacy Policy</li>
-            <li>Have an issue with 2 factor authentication?</li>
+            <li>Have an issue with 2-factor authentication?</li>
         </ul>
     )
 }
