@@ -14,7 +14,6 @@ const Login = (props) => {
             setMessage('Invalid Login')
         } else if (props.tokenId) {
             setMessage('Success')
-            console.log('push to dashboard')
             props.history.push('/admin/dashboard')
         }
     }, [props])
@@ -22,7 +21,6 @@ const Login = (props) => {
 
 
     const handleEmail = (e) => {
-        console.log('email', e.target.value)
         setEmail(e.target.value)
     }
 
