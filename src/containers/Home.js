@@ -15,7 +15,7 @@ function Layout(props) {
                 <div className=' mx-auto w-full -mt-10'>
                     <Main />
                 </div>
-                <div className='my-0 mx-auto w-full'>
+                <div className='mx-auto w-full'>
                     <Footer />
                 </div>
             </div>
