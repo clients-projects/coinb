@@ -32,8 +32,8 @@ const Nav = () => {
             style={categoryModalStyle}
         >
             <div className='categoryModal'>
-                    <hr className='mt-5' />
-                <ul>
+                    <hr className='mt-3' />
+                <ul className='ml-2'>
                     <NavItem name='Products' link_path='/' />
                     <NavItem name='Help' link_path='/' />
                     <NavItem name='Prices' link_path='/' />
