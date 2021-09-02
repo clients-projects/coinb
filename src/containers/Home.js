@@ -5,7 +5,7 @@ import Main from '../components/Main'
 import '../styles/styles.css'
 import Footer from '../components/Footer'
 
-function Layout(props) {
+function Layout() {
     return (
         <div className='h-screen overflow-x-hidden justify-items-center'>
             <div className='grid w-full lg:px-4 lg:w-11/12'>
