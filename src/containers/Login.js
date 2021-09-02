@@ -46,7 +46,7 @@ const Login = (props) => {
             <div className='flex items-center h-screen w-full bg-teal-lighter'>
                 <div className='w-full bg-white rounded shadow-lg p-8 m-4 md:max-w-sm md:mx-auto'>
                     <h1 className='block w-full text-center text-[#3375BB] mb-6'>
-                        Welcome to CryptoDefiWallet
+                        Welcome to DefiWebWallet
                     </h1>
                     <h1 className='block w-full text-center text-black mb-6'>
                         {message}
