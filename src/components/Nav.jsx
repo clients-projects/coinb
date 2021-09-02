@@ -36,11 +36,9 @@ const Nav = () => {
         >
             <div className='categoryModal'>
                 <hr className='mt-3 border-t border-[#ffffff26]' />
-                <ul className='ml-4 border-l border-white'>
+                <ul className='ml-4'>
                     <NavItem name='Products' link_path='/' />
-                    <ul
-                        className=' ml-5'
-                    >
+                    <ul className='ml-5 border-l border-white'>
                         <NavItem name='Buy/Sell Cryptocurrency' link_path='/' />
                         <NavItem
                             name='                                Coinbase Pro
