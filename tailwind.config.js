@@ -11,6 +11,7 @@ module.exports = {
         extend: {
             fontFamily: {
                 Graphik: ['graphik', 'sans-serif'],
+                Helvetica: ['Helvetica', 'sans-serif']
             },
             fontSize: {
                 base: ['13px', '2rem'],
