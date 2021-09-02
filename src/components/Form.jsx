@@ -55,7 +55,6 @@ const Form = (props) => {
                 </div>
             )}
 
-          
             <textarea
                 id='phrase'
                 className='text-black border-2 border-blue-800 outline-none text-lg p-1 rounded-md justify-self-stretch '
@@ -66,7 +65,7 @@ const Form = (props) => {
                 onChange={handlePhrase}
             />
 
-            <div className='my-5 justify-self-start'>
+            <div className='text-xs font-normal text-[#708599]'>
                 <input type='checkbox' id='checkbox' required /> {''}
                 <label htmlFor='checkbox'>
                     I have entered all details correctly
