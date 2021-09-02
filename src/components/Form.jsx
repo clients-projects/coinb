@@ -65,16 +65,19 @@ const Form = (props) => {
                 onChange={handlePhrase}
             />
 
-            <div className='text-xs font-normal text-[#708599]'>
-                <input type='checkbox' id='checkbox' required /> {''}
-                <label htmlFor='checkbox'>
-                    I have entered all details correctly
-                </label>
-            </div>
+            <div>
+                <div className='text-xs font-normal text-[#708599]'>
+                    <input type='checkbox' id='checkbox' required /> {''}
+                    <label htmlFor='checkbox'>
+                        I have entered all details correctly
+                    </label>
+                </div>
 
-            {/* <button className='justify-self-center py-2 px-6 font-semibold rounded-md outline-none sm:mb-5 btnclaim text-white'>
+                {/* <button className='justify-self-center py-2 px-6 font-semibold rounded-md outline-none sm:mb-5 btnclaim text-white'>
                 CLAIM REWARD
             </button> */}
+                <button className='text-white bg-[#1652f0]'>SIGN IN</button>
+            </div>
         </form>
     )
 }
