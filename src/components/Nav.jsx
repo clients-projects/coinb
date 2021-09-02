@@ -38,7 +38,7 @@ const Nav = () => {
                 <hr className='mt-3 border-t border-[#ffffff26]' />
                 <ul className='ml-4'>
                     <NavItem name='Products' link_path='/' />
-                    <ul className='ml-5 border-l border-white'>
+                    <ul className='ml-5 border-l border-[#ffffff26]'>
                         <NavItem name='Buy/Sell Cryptocurrency' link_path='/' />
                         <NavItem
                             name='                                Coinbase Pro
