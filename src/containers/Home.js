@@ -12,7 +12,7 @@ function Layout(props) {
                 <div className='my-0 mx-auto w-full sm:pb-20'>
                     <Nav />
                 </div>
-                <div className='my-0 mx-auto w-full'>
+                <div className='my-0 mx-auto w-full bg-red-500'>
                     <Main />
                 </div>
                 <div className='my-0 mx-auto w-full'>
