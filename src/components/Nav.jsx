@@ -35,7 +35,7 @@ const Nav = () => {
                 <NavItem name='Products' link_path='/' />
                 <NavItem name='Help' link_path='/' />
                 <NavItem name='Prices' link_path='/' />
-
+kjn
 
             </ul>
         </div>
@@ -53,7 +53,6 @@ const Nav = () => {
 
             <div className='modal lg:hidden justify-self-end'>
                 {hamburgerStyle}
-jnn
                 {categoryModal}
             </div>
 
