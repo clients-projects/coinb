@@ -11,7 +11,7 @@ export default function Footer() {
         <p>
       <a href="#blank">Forgot password?</a>
       · <a href="#blank">Don't have an account?</a>
-      · <a href="/legal/privacy">Privacy Policy</a><br>
+      · <a href="#blank">Privacy Policy</a><br/>
     </p>
     )
 }
