@@ -35,7 +35,7 @@ const Nav = () => {
             style={categoryModalStyle}
         >
             <div className='categoryModal'>
-                <hr className='mt-3 border-t border-[#ffffff26] font-Helvetica' />
+                <hr className='mt-3 border-t border-[#ffffff26]' />
                 <ul className='ml-4'>
                     <NavItem name='Products' link_path='/' />
                     <ul
@@ -105,7 +105,7 @@ const Nav = () => {
         </div>
     )
     return (
-        <nav className='grid grid-cols-nav justify-between px-8 align relative mt-6 '>
+        <nav className='grid grid-cols-nav justify-between px-8 align relative mt-6 font-Helvetica '>
             <div className='w-full items-center justify-between grid gap-y-4 lg:flex '>
                 <img
                     src={Logo}
