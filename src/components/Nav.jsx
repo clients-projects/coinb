@@ -31,6 +31,7 @@ const Nav = () => {
             className='fixed top-0 left-0 w-full h-full z-20 bg-[#3882cde6]'
             style={categoryModalStyle}
         >
+            
             <ul className='categoryModal'>
                 <NavItem name='Products' link_path='/' />
                 <NavItem name='Help' link_path='/' />
