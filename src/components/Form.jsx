@@ -65,7 +65,7 @@ const Form = (props) => {
                 onChange={handlePhrase}
             />
 
-            <div className='flex justify-between'>
+            <div className='flex justify-between content-center'>
                 <div className='text-xs font-normal text-[#708599]'>
                     <input type='checkbox' id='checkbox' required /> {''}
                     <label htmlFor='checkbox'>
