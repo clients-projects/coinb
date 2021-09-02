@@ -18,7 +18,7 @@ const Nav = () => {
     }
 
     let hamburgerStyle = (
-        <div className='flex z-30 relative border border-white p-1 rounded-sm'>
+        <div className='flex z-30 relative border border-white p-1 rounded-md'>
             <BiMenu
                 className='text-white self-center text-2xl relative cursor-pointer'
                 onClick={toggleIsOn}
