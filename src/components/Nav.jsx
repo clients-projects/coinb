@@ -38,70 +38,34 @@ const Nav = () => {
                 <hr className='mt-3 border-t border-[#ffffff26]' />
                 <ul className='ml-4'>
                     <NavItem name='Products' link_path='/' />
-                        <ul className='border-l border-[#ffffff26] ml-7 '>
-                            <NavItem
-                                name='Buy/Sell Cryptocurrency'
-                                link_path='/'
-                            />
-                            <NavItem
-                                name='                                Coinbase Pro
+                    <ul className='border-l border-[#ffffff26] ml-7 '>
+                        <NavItem name='Buy/Sell Cryptocurrency' link_path='/' />
+                        <NavItem
+                            name='                                Coinbase Pro
                             '
-                                link_path='/'
-                            />
-                            <NavItem
-                                name='                                Coinbase Prime'
-                                link_path='/'
-                            />
-                            <NavItem
-                                name='                                Coinbase Platform'
-                                link_path='/'
-                            />
-                            <NavItem
-                                name='                                Coinbase Commerce
+                            link_path='/'
+                        />
+                        <NavItem
+                            name='                                Coinbase Prime'
+                            link_path='/'
+                        />
+                        <NavItem
+                            name='                                Coinbase Platform'
+                            link_path='/'
+                        />
+                        <NavItem
+                            name='                                Coinbase Commerce
                             '
-                                link_path='/'
-                            />
-                        </ul>
+                            link_path='/'
+                        />
+                    </ul>
                     <NavItem name='Help' link_path='/' />
                     <NavItem name='Prices' link_path='/' />
                 </ul>
             </div>
 
-            {/* <div
-                className='nav-collapse collapse in'
-                id='application_menu'
-                style={{ height: '74px' }}
-            >
-                <ul className='nav clearfix'>
-                    <li className='dropdown dropdown-hover' id='resources_menu'>
-                        <a
-                            className='dropdown-toggle'
-                            data-toggle='dropdown'
-                            href='#blank'
-                        >
-                            Products <b className='caret'></b>
-                        </a>
-                    </li>
-                    <li>
-                        <a href='/help' target='_blank'>
-                            Help
-                        </a>
-                    </li>
-                </ul>
-                <ul className='nav clearfix'>
-                    <li>
-                        <a href='/'>Prices</a>
-                    </li>
-                    <li className='active signin'>
-                        <a href='/'>Sign In</a>
-                    </li>
-                    <li style={{ marginTop: '-1px' }} className=' signup'>
-                        <a href='/signup' className='btn'>
-                            Sign Up
-                        </a>
-                    </li>
-                </ul>
-            </div> */}
+            <hr className='mt-3 border-t border-[#ffffff26]' />
+
         </div>
     )
     return (
