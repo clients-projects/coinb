@@ -41,7 +41,7 @@ const Nav = () => {
         </div>
     )
     return (
-        <nav className='grid grid-cols-nav justify-between px-8 bg-red-700 align relative mt-6 '>
+        <nav className='grid grid-cols-nav justify-between px-8 align relative mt-6 '>
             <div className='w-full items-center justify-between grid gap-y-4 lg:flex '>
                 <img
                     src={Logo}
@@ -53,7 +53,7 @@ const Nav = () => {
 
             <div className='modal lg:hidden justify-self-end'>
                 {hamburgerStyle}
-
+jnn
                 {categoryModal}
             </div>
 
