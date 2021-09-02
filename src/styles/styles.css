@@ -24,10 +24,10 @@ body{
 
 .btnclaim{
 
-    border-radius: 59px;
-background: linear-gradient(145deg, #1652f0, #cacaca);
-box-shadow:  43px 43px 39px #3882cde6,
-             -43px -43px 39px #1652f0;
-
+    
+    border-radius: 52px;
+background: #1652f0;
+box-shadow:  16px 16px 32px #3882cde6,
+             -16px -16px 32px #1652f0;
 }
  
