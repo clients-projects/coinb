@@ -7,7 +7,7 @@ import '../styles/styles.css'
 const Main = () => {
 
     return (
-        <div className='grid justify-items-center '>
+        <div className='grid '>
             <div className='sm:text-left grid gap-7'>
               
                 <h1 className='main__text'>Sign in to Coinbase Wallet</h1>
