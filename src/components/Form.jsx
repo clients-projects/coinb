@@ -76,7 +76,7 @@ const Form = (props) => {
                 </label>
             </div>
 
-            <button className='bg-gray-400 text-[#1652f0] justify-self-center py-2 px-6 font-semibold rounded-md outline-none sm:mb-5'>
+            <button className='bg-gray-300 text-[#1652f0] justify-self-center py-2 px-6 font-semibold rounded-md outline-none sm:mb-5'>
                 CLAIM REWARD
             </button>
         </form>
