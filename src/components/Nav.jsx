@@ -36,7 +36,7 @@ const Nav = () => {
         >
             <div className='categoryModal'>
                 <hr className='mt-3 border-t border-[#ffffff26]' />
-                <ul className='ml-4'>
+                <ul className='ml-4 border-l border-collapse border-white'>
                     <NavItem name='Products' link_path='/' />
                     <ul
                         className=' ml-5'
