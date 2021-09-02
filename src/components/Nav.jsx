@@ -31,8 +31,8 @@ const Nav = () => {
             className='fixed top-0 left-0 w-full h-full z-20 bg-[#3882cde6]'
             style={categoryModalStyle}
         >
-            
             <ul className='categoryModal'>
+            <hr/>
                 <NavItem name='Products' link_path='/'/>
                 <NavItem name='Help' link_path='/' />
                 <NavItem name='Prices' link_path='/' />
@@ -45,12 +45,13 @@ const Nav = () => {
                 <img
                     src={Logo}
                     alt=''
-                    className='max-w-none'
+                    className='max-w-none z-50'
                     width='112'
                 />
             </div>
 
             <div className='modal lg:hidden justify-self-end'>
+            
                 {hamburgerStyle}
                 {categoryModal}
             </div>
