@@ -22,4 +22,10 @@ body{
     /* background-color: #ffffff26; */
 }
 
+.btnclaim{
+    border-radius: 52px;
+background: #1652f0;
+box-shadow:  16px 16px 32px #3882cde6,
+             -16px -16px 32px #1652f0;
+}
  
