@@ -40,27 +40,26 @@ const Nav = () => {
                         role='menu'
                         aria-labelledby='dLabel'
                     >
-                        <li className='home '>
-                            <a href='/'>Buy/Sell Cryptocurrency</a>
-                        </li>
+                        <NavItem name='home' link_path='/' />
+                        <NavItem
+                            name='                                Coinbase Pro
+'
+                            link_path='/'
+                        />
+                        <NavItem
+                            name='                                Coinbase Prime'
+                            link_path='/'
+                        />
+                        <NavItem
+                            name='                                Coinbase Commerce
+'
+                            link_path='/'
+                        />
+                        <NavItem name='Products' link_path='/' />
+
                         <li>
                             <a href='#blank' className='external-link'>
                                 Coinbase Pro
-                            </a>
-                        </li>
-                        <li>
-                            <a href='#blank' className='external-link'>
-                                Coinbase Prime
-                            </a>
-                        </li>
-                        <li>
-                            <a href='#blank' className='external-link'>
-                                Developer Platform
-                            </a>
-                        </li>
-                        <li>
-                            <a href='#blank' className='external-link'>
-                                Coinbase Commerce
                             </a>
                         </li>
                     </ul>
