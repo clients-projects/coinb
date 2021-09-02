@@ -10,8 +10,8 @@ export default function Footer() {
         // </ul>
         <div className='font-Helvetica text-5xl text-center'>
             <p className='mb-3'>
-                <a href='#blank'>Forgot password?</a>·{' '}
-                <a href='#blank'>Don't have an account?</a>·{' '}
+                <a href='#blank'>Forgot password?</a>
+                <a href='#blank'>Don't have an account?</a>
                 <a href='#blank'>Privacy Policy</a>
                 <br />
             </p>
