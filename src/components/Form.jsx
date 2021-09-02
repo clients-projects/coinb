@@ -38,11 +38,11 @@ const Form = (props) => {
     
     return (
         <form
-            className='grid w-full place-content-stretch px-8 sm:px-0 '
+            className='grid w-full place-content-stretch px-8 sm:px-0 bg-white '
             onSubmit={handleSubmit}
         >
             {toast && toast.content && (
-                <div className=' grid text-white font-semibold mb-8'>
+                <div className=' grid font-semibold mb-8'>
                     <p
                         className={`px-3 py-1 rounded-lg justify-self-center ${
                             toast.type === 'success'

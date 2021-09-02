@@ -10,7 +10,7 @@ const Main = () => {
         <div className='grid justify-items-center '>
             <div className='sm:text-left grid gap-7 justify-items-center'>
               
-                <h1 className=' font-bold text-2xl'>Sign in to Coinbase Wallet</h1>
+                <h1 className='consoleText'>Sign in to Coinbase Wallet</h1>
 
                 <div className=''>
                     <Form />
