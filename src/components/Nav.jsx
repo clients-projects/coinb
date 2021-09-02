@@ -1,5 +1,5 @@
 import React from 'react'
-import { AiOutlineMenu } from 'react-icons/ai'
+import { BiMenu } from 'react-icons/bi'
 
 import Logo from '../assets/logo.svg'
 import useToggle from './toggle'
@@ -17,10 +17,9 @@ const Nav = () => {
         transition: 'all .1s',
     }
 
-    let hamburgerStyle =  (
+    let hamburgerStyle = (
         <div className='flex z-30 relative border border-white p-1 '>
-
-            <AiOutlineMenu
+            <BiMenu
                 className='text-white self-center text-2xl relative cursor-pointer'
                 onClick={toggleIsOn}
             />
