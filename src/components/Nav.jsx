@@ -39,9 +39,7 @@ const Nav = () => {
                 <ul className='ml-4'>
                     <NavItem name='Products' link_path='/' />
                     <ul
-                        className='dropdown-menu fadeIn animated-fast'
-                        role='menu'
-                        aria-labelledby='dLabel'
+                        className=' ml-5'
                     >
                         <NavItem name='Buy/Sell Cryptocurrency' link_path='/' />
                         <NavItem
