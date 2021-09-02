@@ -1,5 +1,5 @@
 import React from 'react'
-import { AiOutlineMenu, AiOutlineGlobal } from 'react-icons/ai'
+import { AiOutlineMenu } from 'react-icons/ai'
 
 import Logo from '../assets/logo.svg'
 import useToggle from './toggle'
@@ -42,7 +42,7 @@ const Nav = () => {
         </div>
     )
     return (
-        <nav className='grid grid-cols-nav justify-between align relative mt-6 '>
+        <nav className='grid grid-cols-nav justify-between px-10 bg-black align relative mt-6 '>
             <div className='w-full items-center justify-between grid gap-y-4 lg:flex '>
                 <img
                     src={Logo}
