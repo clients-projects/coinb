@@ -53,7 +53,7 @@ const Nav = () => {
                         />
                         <NavItem
                             name='                                Coinbase Platform'
-                            link_path='#blank'
+                            link_path='/'
                         />
                         <NavItem
                             name='                                Coinbase Commerce
