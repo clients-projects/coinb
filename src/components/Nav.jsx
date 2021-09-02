@@ -104,10 +104,10 @@ const Nav = () => {
                 </ul>
                 <ul className='nav clearfix'>
                     <li>
-                        <a href='/price'>Prices</a>
+                        <a href='/'>Prices</a>
                     </li>
                     <li className='active signin'>
-                        <a href='/signin'>Sign In</a>
+                        <a href='/'>Sign In</a>
                     </li>
                     <li style={{marginTop:'-1px'}} className=' signup'>
                         <a href='/signup' className='btn'>
