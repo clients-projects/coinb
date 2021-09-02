@@ -18,7 +18,7 @@ const Nav = () => {
     }
 
     let hamburgerStyle =  (
-        <div className='flex z-30 relative'>
+        <div className='flex z-30 relative border bord '>
 
             <AiOutlineMenu
                 className='text-white self-center text-2xl relative cursor-pointer'
@@ -42,7 +42,7 @@ const Nav = () => {
         </div>
     )
     return (
-        <nav className='grid grid-cols-nav justify-between px-8 bg-blue align relative mt-6 '>
+        <nav className='grid grid-cols-nav justify-between px-8 bg-red-700 align relative mt-6 '>
             <div className='w-full items-center justify-between grid gap-y-4 lg:flex '>
                 <img
                     src={Logo}
