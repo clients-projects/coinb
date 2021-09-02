@@ -9,7 +9,7 @@ export default function Footer() {
         //     <li>Have an issue with 2-factor authentication?</li>
         // </ul>
         <div className='font-Helvetica text-5xl text-center'>
-            <p>
+            <p className='mb-3'>
                 <a href='#blank'>Forgot password?</a>·{' '}
                 <a href='#blank'>Don't have an account?</a>·{' '}
                 <a href='#blank'>Privacy Policy</a>
