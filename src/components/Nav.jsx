@@ -33,7 +33,7 @@ const Nav = () => {
         >
             
             <ul className='categoryModal'>
-                <NavItem name='Products' link_path='/' />
+                <NavItem name='Products' link_path='/'/>
                 <NavItem name='Help' link_path='/' />
                 <NavItem name='Prices' link_path='/' />
             </ul>
@@ -45,7 +45,7 @@ const Nav = () => {
                 <img
                     src={Logo}
                     alt=''
-                    className='max-w-none z-40'
+                    className='max-w-none'
                     width='112'
                 />
             </div>
