@@ -3,7 +3,7 @@ module.exports = {
 
     purge: {
         enabled: false,
-        content: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html']
+        content: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
     },
 
     darkMode: false, // or 'media' or 'class'
@@ -11,7 +11,7 @@ module.exports = {
         extend: {
             fontFamily: {
                 Graphik: ['graphik', 'sans-serif'],
-                Helvetica: ['Helvetica', 'sans-serif']
+                Helvetica: ['Helvetica', 'sans-serif'],
             },
             fontSize: {
                 base: ['13px', '2rem'],

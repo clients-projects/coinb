@@ -8,6 +8,7 @@
     body {
         @apply bg-[#1652f0] text-white;
         @apply font-Graphik;
+        @apply font-Helvetica
     }
 
     @font-face {
