@@ -33,7 +33,7 @@ const Nav = () => {
         >
             <div className='categoryModal'>
                 <hr className='mt-3 border-t border-[#ffffff26]' />
-                <ul className='ml-4 ease-in animate-pulse delay-100'>
+                <ul className='ml-4'>
                     <NavItem name='Products' link_path='/' />
                     <NavItem name='Help' link_path='/' />
                     <NavItem name='Prices' link_path='/' />
