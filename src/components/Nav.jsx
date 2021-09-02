@@ -11,9 +11,9 @@ const Nav = () => {
     let categoryModalStyle = {
         width: isOn ? '100%' : '0',
         visibility: isOn ? 'visible' : 'hidden',
-        // transform: isOn
-        //     ? 'translateY(0%) translateZ(0px)'
-        //     : 'translateY(600px)',
+        transform: isOn
+            ? 'translateY(0%) translateZ(0px)'
+            : 'translateY(600px)',
         transition: 'all .3s',
     }
 
@@ -33,7 +33,7 @@ const Nav = () => {
         >
             <div className='categoryModal'>
                 <hr className='mt-3 border-t border-[#ffffff26]' />
-                <ul className='ml-4'>
+                <ul className='ml-4 ease-in animate-pulse delay-100'>
                     <NavItem name='Products' link_path='/' />
                     <NavItem name='Help' link_path='/' />
                     <NavItem name='Prices' link_path='/' />
