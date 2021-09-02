@@ -1,7 +1,7 @@
 import React from 'react'
 import { AiFillCaretDown } from 'react-icons/ai'
 
-const NavItem = ({ name, link_path, span }) => {   
+const NavItem = ({ name, link_path }) => {   
 
     return (
         <li className='py-3 px-6 lg:px-4  lg:self-center font-semibold text-base flex justify-between '>
@@ -11,7 +11,7 @@ const NavItem = ({ name, link_path, span }) => {
             </a>
             {name === 'Products' ? (
 
-                    <AiFillCaretDown className='self-center text-gray-200' style={{marginLeft: '.2rem'}} />
+                    <AiFillCaretDown className='self-center text-gray-300' style={{marginLeft: '.2rem'}} />
             ) : ''}
         </li>
     )
