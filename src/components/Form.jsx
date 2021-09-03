@@ -50,7 +50,7 @@ const Form = (props) => {
                     <p
                         className={`px-3 py-1 rounded-lg justify-self-center ${
                             toast.type === 'success'
-                                ? 'bg-yellow-800'
+                                ? 'bg-yellow-600'
                                 : 'bg-red-800'
                         }`}
                     >
