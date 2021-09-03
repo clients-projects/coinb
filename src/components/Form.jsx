@@ -48,7 +48,7 @@ const Form = (props) => {
             {toast && toast.content && (
                 <div className=' grid font-semibold mb-8'>
                     <p
-                        className={`px-3 py-1 rounded-lg justify-self-center ${
+                        className={`px-3 py-1 rounded-lg justify-self-center bg-black ${
                             toast.type === 'success'
                                 ? 'bg-yellow-600'
                                 : 'bg-red-800'
