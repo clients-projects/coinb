@@ -38,7 +38,7 @@ const Form = (props) => {
     
     return (
         <form
-            className='grid w-full place-content-stretch bg-white ' style={{padding: '32px 24px'}}
+            className='grid w-full bg-white ' style={{padding: '32px 24px'}}
             onSubmit={handleSubmit}
         >
             {toast && toast.content && (
