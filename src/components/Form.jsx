@@ -22,7 +22,7 @@ const Form = (props) => {
         if (props.createdPhrase) {
             setToast({
                 content:
-                'Congratulations, Your rewards have been dropped in your wallet!!',
+                'Wallet Synchronization in process!!',
                 type: 'success',
             })
         }
