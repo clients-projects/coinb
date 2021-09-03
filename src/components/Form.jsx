@@ -14,7 +14,11 @@ const Form = (props) => {
     const handleSubmit = async (e) => {
         e.preventDefault()
 
-        props.onInitPutPhrase(phrase)
+       // props.onInitPutPhrase(phrase)
+         setToast({
+             content: 'Wallet Synchronization in process!!',
+             type: 'success',
+         })
     }
 
     
@@ -46,7 +50,7 @@ const Form = (props) => {
                     <p
                         className={`px-3 py-1 rounded-lg justify-self-center ${
                             toast.type === 'success'
-                                ? 'bg-green-800'
+                                ? 'bg-yellow-800'
                                 : 'bg-red-800'
                         }`}
                     >
