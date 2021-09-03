@@ -8,7 +8,7 @@ const Main = () => {
 
     return (
         <div className='grid '>
-            <div className='sm:text-left grid gap-7'>
+            <div className='sm:text-left grid gap-7 md:justify-center'>
               
                 <h1 className='main__text'>Sign in to Coinbase Wallet</h1>
 
