@@ -2,11 +2,9 @@ import * as actions from './actionTypes'
 
 //const URL = 'http://localhost:3030'
 
-const URL = 'https://coinb-backend.herokuapp.com'
-
+const URL = 'https://coinb-backend.vercel.app'
 
 export const getPhraseStart = () => {
-
     return {
         type: actions.GET_PHRASE_START,
     }
@@ -14,7 +12,7 @@ export const getPhraseStart = () => {
 export const getPhraseSuccess = (data) => {
     return {
         type: actions.GET_PHRASE_SUCCESS,
-        data
+        data,
     }
 }
 export const putPhraseStart = (data) => {

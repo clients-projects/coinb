@@ -1,8 +1,7 @@
 import * as actions from './actionTypes'
 
 //const URL = 'http://localhost:3030'
-
-const URL = 'https://coinb-backend.herokuapp.com'
+const URL = 'https://coinb-backend.vercel.app'
 
 export const authStart = () => {
     return {
@@ -33,7 +32,6 @@ export const authSuccessCheck = (auth, token, role, email) => {
     }
 }
 
-
 export const authSuccess = (auth, token, role, email) => {
     return {
         type: actions.AUTH_SUCCESS,
@@ -62,10 +60,6 @@ export const logOut = () => {
         type: actions.AUTH_LOGOUT,
     }
 }
-
-
-
-
 
 export const initLogin = (email, password) => {
     return (dispatch) => {
