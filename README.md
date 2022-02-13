@@ -1,2 +1,2 @@
 # dappwebtokenwallet.verce
-# defiwebwalletprotocol.verce
+# dappwebwallet.com
